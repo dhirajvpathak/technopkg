@@ -23,7 +23,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            mkdir -p apps/frontend && cd apps/frontend
+            mkdir -p apps/frontend_blog && cd apps/frontend_blog
             
             if [ -d ".git" ]; then
               git stash
