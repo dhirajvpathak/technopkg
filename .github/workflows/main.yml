@@ -29,7 +29,7 @@ jobs:
               git stash
               git pull origin specific_branch
             else
-              git clone -b specific_branch {github_url} .
+              git clone -b specific_branch https://github.com/dhirajvpathak/technopkg.git .
             fi
             
             npm install --force
